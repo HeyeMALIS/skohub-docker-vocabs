@@ -20,29 +20,25 @@ verbrennungsmotor:Nockenwelle a skos:Concept ;
   skos:prefLabel "Nockenwelle"@de, "Camshaft"@en ;
   skos:altLabel "Cams"@en ;
   skos:note "Welle mit Exzentern, zur Betätigung der Ventile"@de, "shaft to which a cam is fastened"@en ;
-  skos:related verbrennungsmotor:Kurbelwelle, verbrennungsmotor:Zylinderkopf ;
   skos:broader verbrennungsmotor:Zylinderkopf ;
   skos:topConceptOf verbrennungsmotor: .
   
 verbrennungsmotor:Ventilsitz a skos:Concept ;
   skos:prefLabel "Ventilsitz"@de, "Valve Seat"@en ;
   skos:altLabel "Sitz"@de, "seat"@en ;
-  skos:related verbrennungsmotor:Nockenwelle, verbrennungsmotor:Ventil ;
   skos:broader verbrennungsmotor:Zylinderkopf ;
   skos:topConceptOf verbrennungsmotor: . 
   
 verbrennungsmotor:Ventil a skos:Concept ;
   skos:prefLabel "Ventil"@de, "Valve"@en ;
   skos:note "Bauelement insbesondere zum Absperren oder Regeln von Stoffströmen"@de, "device that regulates, directs or controls the flow of a fluid or a gas"@en ;
-  skos:related verbrennungsmotor:Nockenwelle, verbrennungsmotor:Ventilsitz ;
-  skos:broade verbrennungsmotor:Zylinderkopf ;
+  skos:broader verbrennungsmotor:Zylinderkopf ;
   skos:topConceptOf verbrennungsmotor: .
   
 verbrennungsmotor:Ventilfeder a skos:Concept ;
   skos:prefLabel "Ventilfeder"@de, "Valve Spring"@en ;
   skos:altLabel "Feder"@de, "Spring"@en ;
   skos:hiddenLabel "Feder"@de, "Spring"@en ;
-  skos:related verbrennungsmotor:Ventil ;
   skos:broader verbrennungsmotor:Zylinderkopf ;
   skos:topConceptOf verbrennungsmotor: .
   
@@ -64,7 +60,6 @@ verbrennungsmotor:Kolbenringe a skos:Concept ;
   skos:prefLabel "Kolbenring"@de, "Piston Rings"@en ;
   skos:altLabel "Ringe"@de, "Kompressionsring"@de, "Ölabstreifring"@de ;
   skos:note "Dichtringe zum Aufbau von Kompression"@de, "Sealing rings that help build up compression"@en ;
-  skos:related verbrennungsmotor:Kolben, verbrennungsmotor:Kurbelwelle, verbrennungsmotor:Pleuel ;
   skos:broader verbrennungsmotor:Zylinder ;
   skos:topConceptOf verbrennungsmotor: .
     
@@ -79,7 +74,6 @@ verbrennungsmotor:Pleuel a skos:Concept ;
   skos:prefLabel "Pleuel"@de, "Connecting Rod"@en ;
   skos:altLabel "Pleul"@de, "rod"@de ;
   skos:note "Stange, die Kolben und Kurbelwelle verbindet. Überträger der Bewegungsenergie"@de, "connecting Pistons an Crankshaft"@en ; 
-  skos:related verbrennungsmotor:Kurbelwelle, verbrennungsmotor:Kolben ;
   skos:broader verbrennungsmotor:Zylinder ; 
   skos:topConceptOf verbrennungsmotor: . 
   
