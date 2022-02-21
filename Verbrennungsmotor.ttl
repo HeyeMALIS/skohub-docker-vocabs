@@ -82,3 +82,4 @@ verbrennungsmotor:Steuerkette a skos:Concept ;
   skos:altLabel "Kette"@de, "chain"@de ;
   skos:note "Verbindung von Kurbelwelle und Nockenwelle"@de, "connection between Crankshaft and Camshaft"@en ;
   skos:topConceptOf verbrennungsmotor: .
+
