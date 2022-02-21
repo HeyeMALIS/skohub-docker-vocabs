@@ -55,7 +55,7 @@ verbrennungsmotor:Zylinder a skos:Concept ;
 verbrennungsmotor:Kolben a skos:Concept ;
   skos:prefLabel "Kolben"@de, "Piston"@en ;
   skos:hiddenLabel "Schmiedekolben"@de, "forged piston"@en ;
-  skos:note "moving component of reciprocating engines that is contained by a cylinder and is made gas-tight by piston rings"@en ;
+  skos:note "Bewegliches Bauteil innerhalb des Zylinders, welche das Gas-Gemisch komprimiert und die Expansionsenergie des Verbrennungsprozesses in Bewegungsenergie umwandelt."@de, "moving component of reciprocating engines that is contained by a cylinder and is made gas-tight by piston rings"@en ;
   skos:related verbrennungsmotor:Zylinder ;
   skos:topConceptOf verbrennungsmotor: .
 
