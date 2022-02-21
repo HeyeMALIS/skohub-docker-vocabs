@@ -8,7 +8,7 @@ verbrennungsmotor: a skos:ConceptScheme ;
   dct:created "2022-02-20" ;
   dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
   dct:description "Überblick über die einzelnen Baugruppen und Bestandteile von Verbrennungsmotoren"@de, "overview of the parts of an internal combustion engine "@en ;
-  skos:hasTopConcept verbrennungsmotor:Zylinderkopf, verbrennungsmotor:Nockenwelle, verbrennungsmotor:Ventilsitz, verbrennungsmotor:Ventil, verbrennungsmotor:Ventilfeder, verbrennungsmotor:Zylinder, verbrennungsmotor:Kolben, verbrennungsmotor:Kolbenringe, verbrennungsmotor:Kurbelwelle, verbrennungsmotor:Pleuel, verbrennungsmotor:Steuerkette .
+  skos:hasTopConcept verbrennungsmotor:Zylinderkopf, verbrennungsmotor:Zylinder, verbrennungsmotor:Kurbelwelle, verbrennungsmotor:Steuerkette .
   
 verbrennungsmotor:Zylinderkopf a skos:Concept ;
   skos:prefLabel "Zylinderkopf"@de, "Cylinder Head"@en ;
@@ -26,6 +26,7 @@ verbrennungsmotor:Nockenwelle a skos:Concept ;
 verbrennungsmotor:Ventilsitz a skos:Concept ;
   skos:prefLabel "Ventilsitz"@de, "Valve Seat"@en ;
   skos:altLabel "Sitz"@de, "seat"@en ;
+  skos:note "Aussparung im Brennraum, gegen welche das Ventil abdichtet", "part of the cylinderhead that mates with the valve face"@en
   skos:broader verbrennungsmotor:Zylinderkopf ;
   skos:inScheme verbrennungsmotor: . 
   
