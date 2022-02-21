@@ -11,7 +11,7 @@ verbrennungsmotor: a skos:ConceptScheme ;
   skos:hasTopConcept verbrennungsmotor:Zylinderkopf, verbrennungsmotor:Nockenwelle, verbrennungsmotor:Ventilsitz, verbrennungsmotor:Ventil, verbrennungsmotor:Ventilfeder, verbrennungsmotor:Zylinder, verbrennungsmotor:Kolben, verbrennungsmotor:Kolbenringe, verbrennungsmotor:Kurbelwelle, verbrennungsmotor:Pleuel, verbrennungsmotor:Steuerkette .
   
 verbrennungsmotor:Zylinderkopf a skos:Concept ;
-  skos:prefLabel "Zylinderkopf"@de, "cylinder head"@en ;
+  skos:prefLabel "Zylinderkopf"@de, "Cylinder Head"@en ;
   skos:altLabel "Kopf"@de, "head"@en ;
   skos:hiddenLabel "Matchless"@de ;
   skos:topConceptOf verbrennungsmotor: .
@@ -27,7 +27,7 @@ verbrennungsmotor:Ventilsitz a skos:Concept ;
   skos:prefLabel "Ventilsitz"@de, "Valve Seat"@en ;
   skos:altLabel "Sitz"@de, "seat"@en ;
   skos:related verbrennungsmotor:Nockenwelle, verbrennungsmotor:Ventil ;
-  skos:narrower verbrennungsmotor:Zylinderkopf ;
+  skos:broader verbrennungsmotor:Zylinderkopf ;
   skos:topConceptOf verbrennungsmotor: . 
   
 verbrennungsmotor:Ventil a skos:Concept ;
@@ -46,7 +46,7 @@ verbrennungsmotor:Ventilfeder a skos:Concept ;
   skos:topConceptOf verbrennungsmotor: .
   
 verbrennungsmotor:Zylinder a skos:Concept ;
-  skos:prefLabel "Zylinder"@de, "cylinder"@en ;
+  skos:prefLabel "Zylinder"@de, "Cylinder"@en ;
   skos:altLabel "Verbrennungsraum"@de, "combustion chamber"@de ;
   skos:note "Arbeitsbereich des Kolbens"@de, "workingspace of the piston"@en ;
   skos:related verbrennungsmotor:Kolben  ;
@@ -74,7 +74,7 @@ verbrennungsmotor:Kurbelwelle a skos:Concept ;
   skos:inScheme verbrennungsmotor: .
 
 verbrennungsmotor:Pleuel a skos:Concept ;
-  skos:prefLabel "Pleuel"@de, "connecting Rod"@en ;
+  skos:prefLabel "Pleuel"@de, "Connecting Rod"@en ;
   skos:altLabel "Pleul"@de, "rod"@de ;
   skos:note "Stange, die Kolben und Kurbelwelle verbindet. Überträger der Bewegungsenergie"@de, "connecting Pistons an Crankshaft"@en ; 
   skos:related verbrennungsmotor:Kurbelwenne, verbrennungsmotor:Kolben ;
