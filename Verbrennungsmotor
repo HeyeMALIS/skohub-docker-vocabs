@@ -1,0 +1,17 @@
+@prefix verbrennungsmotor: <https://example.org/verbrennungsmotor/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+verbrennungsmotor: a skos:ConceptScheme ;
+  dct:title "Bauteile des Verbrennungsmotors"@de, "parts of an internal combustion engine"@en ;
+  dct:creator "Heye Bookmeyer"@de ;
+  dct:created "2022-02-20" ;
+  dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dct:description "Überblick über die einzelnen Baugruppen und Bestandteile von Verbrennungsmotoren"@de, "overview of the parts of an internal combustion engine "@en ;
+  skos:hasTopConcept verbrennungsmotor:Zylinderkopf, verbrennungsmotor:Nockenwelle, verbrennungsmotor:Ventilsitz, verbrennungsmotor:Ventil, verbrennungsmotor:Ventilfeder, verbrennungsmotor:Zylinder, verbrennungsmotor:Kolben, verbrennungsmotor:Kolbenringe, verbrennungsmotor:Kurbelwelle, verbrennungsmotor:Pleuel, verbrennungsmotor:Steuerkette .
+  
+verbrennungsmotor:Zylinderkopf a skos:Concept ;
+  skos:prefLabel "Zylinderkopf"@de, "cylinder head"@en ;
+  skos:altLabel "Kopf"@de, "head"@en ;
+  skos:hiddenLabel "Matchless"@de ;
+  skos:topConceptOf verbrennungsmotor: .
