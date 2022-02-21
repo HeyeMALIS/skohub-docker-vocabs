@@ -21,26 +21,26 @@ verbrennungsmotor:Nockenwelle a skos:Concept ;
   skos:altLabel "Cams"@en ;
   skos:note "Welle mit Exzentern, zur Betätigung der Ventile"@de, "shaft to which a cam is fastened"@en ;
   skos:broader verbrennungsmotor:Zylinderkopf ;
-  skos:inScheme verbrennungsmotor: .
+  skos:inScheme verbrennungsmotor:Zylinderkopf .
   
 verbrennungsmotor:Ventilsitz a skos:Concept ;
   skos:prefLabel "Ventilsitz"@de, "Valve Seat"@en ;
   skos:altLabel "Sitz"@de, "seat"@en ;
   skos:broader verbrennungsmotor:Zylinderkopf ;
-  skos:inScheme verbrennungsmotor: . 
+  skos:inScheme verbrennungsmotor:Zylinderkopf . 
   
 verbrennungsmotor:Ventil a skos:Concept ;
   skos:prefLabel "Ventil"@de, "Valve"@en ;
   skos:note "Bauelement insbesondere zum Absperren oder Regeln von Stoffströmen"@de, "device that regulates, directs or controls the flow of a fluid or a gas"@en ;
   skos:broader verbrennungsmotor:Zylinderkopf ;
-  skos:inScheme verbrennungsmotor: .
+  skos:inScheme verbrennungsmotor:Zylinderkopf .
   
 verbrennungsmotor:Ventilfeder a skos:Concept ;
   skos:prefLabel "Ventilfeder"@de, "Valve Spring"@en ;
   skos:altLabel "Feder"@de, "Spring"@en ;
   skos:hiddenLabel "Feder"@de, "Spring"@en ;
   skos:broader verbrennungsmotor:Zylinderkopf ;
-  skos:inScheme verbrennungsmotor: .
+  skos:inScheme verbrennungsmotor:Zylinderkopf .
   
 verbrennungsmotor:Zylinder a skos:Concept ;
   skos:prefLabel "Zylinder"@de, "Cylinder"@en ;
@@ -54,14 +54,14 @@ verbrennungsmotor:Kolben a skos:Concept ;
   skos:hiddenLabel "Schmiedekolben"@de, "forged piston"@en ;
   skos:note "Bewegliches Bauteil innerhalb des Zylinders, welche das Gas-Gemisch komprimiert und die Expansionsenergie des Verbrennungsprozesses in Bewegungsenergie umwandelt."@de, "moving component of reciprocating engines that is contained by a cylinder and is made gas-tight by piston rings"@en ;
   skos:broader verbrennungsmotor:Zylinder ;
-  skos:inScheme verbrennungsmotor: .
+  skos:inScheme verbrennungsmotor:Zylinder .
 
 verbrennungsmotor:Kolbenringe a skos:Concept ;
   skos:prefLabel "Kolbenring"@de, "Piston Rings"@en ;
   skos:altLabel "Ringe"@de, "Kompressionsring"@de, "Ölabstreifring"@de ;
   skos:note "Dichtringe zum Aufbau von Kompression"@de, "Sealing rings that help build up compression"@en ;
   skos:broader verbrennungsmotor:Zylinder ;
-  skos:inScheme verbrennungsmotor: .
+  skos:inScheme verbrennungsmotor:Zylinder .
     
 verbrennungsmotor:Kurbelwelle a skos:Concept ;
   skos:prefLabel "Kurbelwelle"@de, "Crankshaft"@en ;
@@ -75,7 +75,7 @@ verbrennungsmotor:Pleuel a skos:Concept ;
   skos:altLabel "Pleul"@de, "rod"@de ;
   skos:note "Stange, die Kolben und Kurbelwelle verbindet. Überträger der Bewegungsenergie"@de, "connecting Pistons an Crankshaft"@en ; 
   skos:broader verbrennungsmotor:Zylinder ; 
-  skos:inScheme verbrennungsmotor: . 
+  skos:inScheme verbrennungsmotor:Zylinder . 
   
 verbrennungsmotor:Steuerkette a skos:Concept ;
   skos:prefLabel "Steuerkette"@de, "Timing Chain"@en ;
