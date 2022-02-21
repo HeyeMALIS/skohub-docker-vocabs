@@ -15,15 +15,13 @@
       "seat"
     ]
   },
-  "narrower": [
-    {
-      "id": "https://example.org/verbrennungsmotor/Zylinderkopf",
-      "prefLabel": {
-        "de": "Zylinderkopf",
-        "en": "cylinder head"
-      }
+  "broader": {
+    "id": "https://example.org/verbrennungsmotor/Zylinderkopf",
+    "prefLabel": {
+      "de": "Zylinderkopf",
+      "en": "Cylinder Head"
     }
-  ],
+  },
   "related": [
     {
       "id": "https://example.org/verbrennungsmotor/Nockenwelle",

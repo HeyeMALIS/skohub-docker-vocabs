@@ -5,7 +5,7 @@
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fverbrennungsmotor%2FZylinderkopf",
   "prefLabel": {
     "de": "Zylinderkopf",
-    "en": "cylinder head"
+    "en": "Cylinder Head"
   },
   "altLabel": {
     "de": [
@@ -15,6 +15,15 @@
       "head"
     ]
   },
+  "narrower": [
+    {
+      "id": "https://example.org/verbrennungsmotor/Ventilsitz",
+      "prefLabel": {
+        "de": "Ventilsitz",
+        "en": "Valve Seat"
+      }
+    }
+  ],
   "related": [
     {
       "id": "https://example.org/verbrennungsmotor/Nockenwelle",

@@ -5,7 +5,7 @@
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fverbrennungsmotor%2FZylinder",
   "prefLabel": {
     "de": "Zylinder",
-    "en": "cylinder"
+    "en": "Cylinder"
   },
   "altLabel": {
     "de": [
