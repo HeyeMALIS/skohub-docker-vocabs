@@ -15,6 +15,9 @@
       "seat"
     ]
   },
+  "note": {
+    "en": "part of the cylinderhead that mates with the valve face"
+  },
   "broader": {
     "id": "https://example.org/verbrennungsmotor/Zylinderkopf",
     "prefLabel": {
