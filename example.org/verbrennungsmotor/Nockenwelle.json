@@ -16,15 +16,13 @@
     "de": "Welle mit Exzentern, zur Betätigung der Ventile",
     "en": "shaft to which a cam is fastened"
   },
-  "narrower": [
-    {
-      "id": "https://example.org/verbrennungsmotor/Kurbelwelle",
-      "prefLabel": {
-        "de": "Kurbelwelle",
-        "en": "Crankshaft"
-      }
+  "broader": {
+    "id": "https://example.org/verbrennungsmotor/Zylinderkopf",
+    "prefLabel": {
+      "de": "Zylinderkopf",
+      "en": "Cylinder Head"
     }
-  ],
+  },
   "related": [
     {
       "id": "https://example.org/verbrennungsmotor/Zylinderkopf",

@@ -17,6 +17,29 @@
     "de": "Arbeitsbereich des Kolbens",
     "en": "workingspace of the piston"
   },
+  "narrower": [
+    {
+      "id": "https://example.org/verbrennungsmotor/Kolben",
+      "prefLabel": {
+        "de": "Kolben",
+        "en": "Piston"
+      }
+    },
+    {
+      "id": "https://example.org/verbrennungsmotor/Kolbenringe",
+      "prefLabel": {
+        "de": "Kolbenring",
+        "en": "Piston Rings"
+      }
+    },
+    {
+      "id": "https://example.org/verbrennungsmotor/Pleuel",
+      "prefLabel": {
+        "de": "Pleuel",
+        "en": "Connecting Rod"
+      }
+    }
+  ],
   "related": [
     {
       "id": "https://example.org/verbrennungsmotor/Kolben",

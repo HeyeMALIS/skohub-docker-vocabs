@@ -17,10 +17,24 @@
   },
   "narrower": [
     {
+      "id": "https://example.org/verbrennungsmotor/Nockenwelle",
+      "prefLabel": {
+        "de": "Nockenwelle",
+        "en": "Camshaft"
+      }
+    },
+    {
       "id": "https://example.org/verbrennungsmotor/Ventilsitz",
       "prefLabel": {
         "de": "Ventilsitz",
         "en": "Valve Seat"
+      }
+    },
+    {
+      "id": "https://example.org/verbrennungsmotor/Ventilfeder",
+      "prefLabel": {
+        "de": "Ventilfeder",
+        "en": "Valve Spring"
       }
     }
   ],

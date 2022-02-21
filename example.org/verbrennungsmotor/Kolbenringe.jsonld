@@ -18,6 +18,13 @@
     "de": "Dichtringe zum Aufbau von Kompression",
     "en": "Sealing rings that help build up compression"
   },
+  "broader": {
+    "id": "https://example.org/verbrennungsmotor/Zylinder",
+    "prefLabel": {
+      "de": "Zylinder",
+      "en": "Cylinder"
+    }
+  },
   "related": [
     {
       "id": "https://example.org/verbrennungsmotor/Kolben",

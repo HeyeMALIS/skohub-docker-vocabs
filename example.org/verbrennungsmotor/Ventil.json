@@ -11,15 +11,6 @@
     "de": "Bauelement insbesondere zum Absperren oder Regeln von Stoffströmen",
     "en": "device that regulates, directs or controls the flow of a fluid or a gas"
   },
-  "narrower": [
-    {
-      "id": "https://example.org/verbrennungsmotor/Zylinderkopf",
-      "prefLabel": {
-        "de": "Zylinderkopf",
-        "en": "Cylinder Head"
-      }
-    }
-  ],
   "related": [
     {
       "id": "https://example.org/verbrennungsmotor/Nockenwelle",

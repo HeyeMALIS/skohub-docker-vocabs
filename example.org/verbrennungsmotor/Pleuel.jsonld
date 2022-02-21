@@ -17,6 +17,13 @@
     "de": "Stange, die Kolben und Kurbelwelle verbindet. Überträger der Bewegungsenergie",
     "en": "connecting Pistons an Crankshaft"
   },
+  "broader": {
+    "id": "https://example.org/verbrennungsmotor/Zylinder",
+    "prefLabel": {
+      "de": "Zylinder",
+      "en": "Cylinder"
+    }
+  },
   "related": [
     {
       "id": "https://example.org/verbrennungsmotor/Kolben",
@@ -30,6 +37,13 @@
       "prefLabel": {
         "de": "Kolbenring",
         "en": "Piston Rings"
+      }
+    },
+    {
+      "id": "https://example.org/verbrennungsmotor/Kurbelwelle",
+      "prefLabel": {
+        "de": "Kurbelwelle",
+        "en": "Crankshaft"
       }
     }
   ],
