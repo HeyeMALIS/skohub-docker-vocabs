@@ -13,7 +13,7 @@ verbrennungsmotor: a skos:ConceptScheme ;
 verbrennungsmotor:Zylinderkopf a skos:Concept ;
   skos:prefLabel "Zylinderkopf"@de, "Cylinder Head"@en ;
   skos:altLabel "Kopf"@de, "head"@en ;
-  skos:hiddenLabel "Matchless"@de ;
+  skos:hiddenLabel "Zylinderdeckel"@de ;
   skos:topConceptOf verbrennungsmotor: .
 
 verbrennungsmotor:Nockenwelle a skos:Concept ;
