@@ -31,19 +31,17 @@
       }
     },
     {
+      "id": "https://example.org/verbrennungsmotor/Ventil",
+      "prefLabel": {
+        "de": "Ventil",
+        "en": "Valve"
+      }
+    },
+    {
       "id": "https://example.org/verbrennungsmotor/Ventilfeder",
       "prefLabel": {
         "de": "Ventilfeder",
         "en": "Valve Spring"
-      }
-    }
-  ],
-  "related": [
-    {
-      "id": "https://example.org/verbrennungsmotor/Nockenwelle",
-      "prefLabel": {
-        "de": "Nockenwelle",
-        "en": "Camshaft"
       }
     }
   ],

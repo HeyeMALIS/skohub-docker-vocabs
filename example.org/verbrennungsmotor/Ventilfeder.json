@@ -22,15 +22,6 @@
       "en": "Cylinder Head"
     }
   },
-  "related": [
-    {
-      "id": "https://example.org/verbrennungsmotor/Ventil",
-      "prefLabel": {
-        "de": "Ventil",
-        "en": "Valve"
-      }
-    }
-  ],
   "inScheme": {
     "id": "https://example.org/verbrennungsmotor/",
     "title": {

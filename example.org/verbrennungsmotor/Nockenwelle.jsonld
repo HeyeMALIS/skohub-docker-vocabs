@@ -25,27 +25,6 @@
   },
   "related": [
     {
-      "id": "https://example.org/verbrennungsmotor/Zylinderkopf",
-      "prefLabel": {
-        "de": "Zylinderkopf",
-        "en": "Cylinder Head"
-      }
-    },
-    {
-      "id": "https://example.org/verbrennungsmotor/Ventilsitz",
-      "prefLabel": {
-        "de": "Ventilsitz",
-        "en": "Valve Seat"
-      }
-    },
-    {
-      "id": "https://example.org/verbrennungsmotor/Ventil",
-      "prefLabel": {
-        "de": "Ventil",
-        "en": "Valve"
-      }
-    },
-    {
       "id": "https://example.org/verbrennungsmotor/Kurbelwelle",
       "prefLabel": {
         "de": "Kurbelwelle",

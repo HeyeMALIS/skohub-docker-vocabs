@@ -25,20 +25,6 @@
         "de": "Zylinder",
         "en": "Cylinder"
       }
-    },
-    {
-      "id": "https://example.org/verbrennungsmotor/Kolbenringe",
-      "prefLabel": {
-        "de": "Kolbenring",
-        "en": "Piston Rings"
-      }
-    },
-    {
-      "id": "https://example.org/verbrennungsmotor/Pleuel",
-      "prefLabel": {
-        "de": "Pleuel",
-        "en": "Connecting Rod"
-      }
     }
   ],
   "inScheme": {

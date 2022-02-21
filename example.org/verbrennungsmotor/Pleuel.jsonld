@@ -24,29 +24,6 @@
       "en": "Cylinder"
     }
   },
-  "related": [
-    {
-      "id": "https://example.org/verbrennungsmotor/Kolben",
-      "prefLabel": {
-        "de": "Kolben",
-        "en": "Piston"
-      }
-    },
-    {
-      "id": "https://example.org/verbrennungsmotor/Kolbenringe",
-      "prefLabel": {
-        "de": "Kolbenring",
-        "en": "Piston Rings"
-      }
-    },
-    {
-      "id": "https://example.org/verbrennungsmotor/Kurbelwelle",
-      "prefLabel": {
-        "de": "Kurbelwelle",
-        "en": "Crankshaft"
-      }
-    }
-  ],
   "inScheme": {
     "id": "https://example.org/verbrennungsmotor/",
     "title": {

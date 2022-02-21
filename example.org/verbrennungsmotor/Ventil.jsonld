@@ -11,29 +11,13 @@
     "de": "Bauelement insbesondere zum Absperren oder Regeln von Stoffströmen",
     "en": "device that regulates, directs or controls the flow of a fluid or a gas"
   },
-  "related": [
-    {
-      "id": "https://example.org/verbrennungsmotor/Nockenwelle",
-      "prefLabel": {
-        "de": "Nockenwelle",
-        "en": "Camshaft"
-      }
-    },
-    {
-      "id": "https://example.org/verbrennungsmotor/Ventilsitz",
-      "prefLabel": {
-        "de": "Ventilsitz",
-        "en": "Valve Seat"
-      }
-    },
-    {
-      "id": "https://example.org/verbrennungsmotor/Ventilfeder",
-      "prefLabel": {
-        "de": "Ventilfeder",
-        "en": "Valve Spring"
-      }
+  "broader": {
+    "id": "https://example.org/verbrennungsmotor/Zylinderkopf",
+    "prefLabel": {
+      "de": "Zylinderkopf",
+      "en": "Cylinder Head"
     }
-  ],
+  },
   "inScheme": {
     "id": "https://example.org/verbrennungsmotor/",
     "title": {
