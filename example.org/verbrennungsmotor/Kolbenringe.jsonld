@@ -32,9 +32,6 @@
       "en": "parts of an internal combustion engine"
     }
   },
-  "topConceptOf": {
-    "id": "https://example.org/verbrennungsmotor/"
-  },
   "@context": {
     "@version": 1.1,
     "id": "@id",
