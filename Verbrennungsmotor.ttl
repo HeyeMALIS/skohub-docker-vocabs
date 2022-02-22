@@ -26,7 +26,7 @@ verbrennungsmotor:Nockenwelle a skos:Concept ;
 verbrennungsmotor:Ventilsitz a skos:Concept ;
   skos:prefLabel "Ventilsitz"@de, "Valve Seat"@en ;
   skos:altLabel "Sitz"@de, "seat"@en ;
-  skos:note "Aussparung im Brennraum, gegen welche das Ventil abdichtet", "part of the cylinderhead that mates with the valve face"@en ;
+  skos:note "Aussparung im Brennraum, gegen welche das Ventil abdichtet"@de, "part of the cylinderhead that mates with the valve face"@en ;
   skos:broader verbrennungsmotor:Zylinderkopf ;
   skos:inScheme verbrennungsmotor: . 
   
@@ -45,7 +45,7 @@ verbrennungsmotor:Ventilfeder a skos:Concept ;
   
 verbrennungsmotor:Zylinder a skos:Concept ;
   skos:prefLabel "Zylinder"@de, "Cylinder"@en ;
-  skos:altLabel "Verbrennungsraum"@de, "combustion chamber"@de ;
+  skos:altLabel "Verbrennungsraum"@de, "combustion chamber"@en ;
   skos:note "Arbeitsbereich des Kolbens"@de, "workingspace of the piston"@en ;
   skos:related verbrennungsmotor:Kolben ;
   skos:topConceptOf verbrennungsmotor: .
